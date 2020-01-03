@@ -6,7 +6,7 @@ This site contains scripts and datas to reproduce the paper intituled: Pull Requ
 
 # Selecting the projects
 
-All projects used in this paper is available on this link [a relative link](data/projects)
+All projects used in this paper is available on this [link](data/projects)
 
 ```markdown
 Syntax highlighted code block

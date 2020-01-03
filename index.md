@@ -1,12 +1,12 @@
 # Replication package
 
-This site contains scripts and datas to reproduce the paper intituled: Pull Requests or Commits? Which Method ShouldWe Use to Study Contributors’ Behavior?
+This site contains scripts and datas to reproduce the paper intituled: Pull Requests or Commits? Which Method Should We Use to Study Contributors’ Behavior?
 
 ## Guidelines
 
 ### Selecting the projects
 
-All projects used in this paper is available on this [link](data/projects)
+All projects used in this paper is available on this [link](https://github.com/markaumvb/RENE/blob/master/data/projects) 
 
 ```markdown
 Syntax highlighted code block

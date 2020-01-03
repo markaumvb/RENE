@@ -1,10 +1,10 @@
-## Replication package
+# Replication package
 
 This site contains scripts and datas to reproduce the paper intituled: Pull Requests or Commits? Which Method ShouldWe Use to Study Contributors’ Behavior?
 
-### Guidelines
+## Guidelines
 
-# Selecting the projects
+### Selecting the projects
 
 All projects used in this paper is available on this [link](data/projects)
 

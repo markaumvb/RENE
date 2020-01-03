@@ -12,13 +12,14 @@ All projects used in this paper is available on this [link](https://github.com/m
 
 All data collected to our paper was builded in python, and stored in a MYSQL database.
 
-1. create the database structure to be used for the collection [tables structure](https://github.com/markaumvb/RENE/blob/master/data/projects)
+1. Create the database structure to be used for the collection [tables structure](https://github.com/markaumvb/RENE/tree/master/database%20script)
 
 2. Before executing the script it is necessary to make some presets:
 Set the variables GH_USER and GH_PASSWD with your github platform user data (github registration required). set the LANGUAGE variable with the language of the project to be collected.
 
-2. Run the script: 
+2. For eache project, run the script [get_pr](https://github.com/markaumvb/RENE/blob/master/python_script/get_pr.py): 
 
 ```markdown
-
+  get_pr('project_owner', 'project_name')
 ```
+3. Run others scripts, available [here](https://github.com/markaumvb/RENE/tree/master/python_script)

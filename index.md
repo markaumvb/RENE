@@ -14,14 +14,16 @@ All data collected to our paper was builded in python, and stored in a MYSQL dat
 
 1. Create the database structure to store the data obtained by the collection [tables structure](https://github.com/markaumvb/RENE/tree/master/database%20script)
 
-2. Before executing the script it is necessary to make some presets:
-Set the variables GH_USER and GH_PASSWD with your github platform user data (github registration required). set the LANGUAGE variable with the language of the project to be collected.
+2. Before executing the script GET_PR.py it is necessary to make some presets:
+Set the variables GH_USER and GH_PASSWD with your github platform user data (github registration required). 
+Set the LANGUAGE variable with the language of the project to be collected.
 
 3. For eache project, run the script [get_pr](https://github.com/markaumvb/RENE/blob/master/python_script/get_pr.py): 
 
 ```markdown
   get_pr('project_owner', 'project_name')
 ```
+
 4. Run the [update_pr](https://github.com/markaumvb/RENE/blob/master/python_script/update_pr.py) script to update some values
 
 ```markdown

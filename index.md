@@ -1,9 +1,8 @@
 ## Replication package
 
+This site contains scripts and datas to reproduce the paper intituled: Pull Requests or Commits? Which Method ShouldWe Use to Study Contributors’ Behavior?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### Guidelines
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 

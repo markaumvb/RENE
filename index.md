@@ -24,6 +24,10 @@ Set the variables GH_USER and GH_PASSWD with your github platform user data (git
 ```
 4. Run the [update_pr](https://github.com/markaumvb/RENE/blob/master/python_script/update_pr.py) script to update some values
 
+```markdown
+  update_pr()
+```
+
 5. Run others scripts, available [here](https://github.com/markaumvb/RENE/tree/master/python_script)
 
 *** All [commits](https://github.com/markaumvb/RENE/blob/master/data/all_commits.csv) and [PR](https://github.com/markaumvb/RENE/blob/master/data/all_PR.csv) data is available [here]()

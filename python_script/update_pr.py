@@ -4,10 +4,8 @@ import requests
 import json
 import time
 from requests.auth import HTTPBasicAuth
-#import conecta
+import conecta
 import sys
-#import re #emojis
-import conecta_remoto
 
 
 GH_USER = "*********"#your github username
@@ -20,10 +18,10 @@ def get_json(url):
 
 def update_pr():
 
-   conecta_remoto.c.execute("select owner, nome_projeto, number_pr, id from pr where (commits is null) order by id")
+   conecta.c.execute("select owner, nome_projeto, number_pr, id from pr where (commits is null) order by id")
    x = 0
    #try:  
-   for linha in conecta_remoto.c.fetchall():
+   for linha in conecta.c.fetchall():
       url = 'https://api.github.com/repos/'+linha[0]+'/'+linha[1]+'/pulls/'+linha[2]
    
       #print(url)
@@ -38,19 +36,14 @@ def update_pr():
          author_association = json_objs['author_association']
          x=x+1
 
-         conecta_remoto.c.execute ("update pr set commits = '%d', additions = '%d', deletions = '%d', changed_files = '%d', author_association = '%s' where id = '%s'" %(qtde_commits, qtde_additions,qtde_deletions, qtde_changed_files, author_association, codigo_pr))
-         conecta_remoto.cnx.commit()
+         conecta.c.execute ("update pr set commits = '%d', additions = '%d', deletions = '%d', changed_files = '%d', author_association = '%s' where id = '%s'" %(qtde_commits, qtde_additions,qtde_deletions, qtde_changed_files, author_association, codigo_pr))
+         conecta.cnx.commit()
       except:
          print(url)   
-      print("Quantidade executada: " + str(x))
+      print("Qty executed: " + str(x))
       print(codigo_pr)
-##   except Exception as e:
-##      print('Erro')
+   except Exception as e:
+      print('error')
       
 
-   #percorrer a URL e pegar as informações necessárias
-##      sql = 'update teste set id_teste = ' + str(x) + ' where id_teste = ' +str(row[0])
-##      x = x + 1
-##      conecta.c.execute(sql)
-##      conecta.cnx.commit()
-    
+

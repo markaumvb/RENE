@@ -12,7 +12,7 @@ All projects used in this paper is available on this [link](https://github.com/m
 
 All data collected to our paper was builded in python, and stored in a MYSQL database.
 
-1. Create the database structure to be used for the collection [tables structure](https://github.com/markaumvb/RENE/tree/master/database%20script)
+1. Create the database structure to store the data obtained by the collection [tables structure](https://github.com/markaumvb/RENE/tree/master/database%20script)
 
 2. Before executing the script it is necessary to make some presets:
 Set the variables GH_USER and GH_PASSWD with your github platform user data (github registration required). set the LANGUAGE variable with the language of the project to be collected.
@@ -29,5 +29,7 @@ Set the variables GH_USER and GH_PASSWD with your github platform user data (git
 *** All [commits](https://github.com/markaumvb/RENE/blob/master/data/all_commits.csv) and [PR](https://github.com/markaumvb/RENE/blob/master/data/all_PR.csv) data is available [here]()
 
 ### Analysis
+
+
 
 

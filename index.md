@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Pull Requests or Commits? Which Method ShouldWe Use to Study Contributors’ Behavior?
 
 You can use the [editor on GitHub](https://github.com/markaumvb/RENE/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 

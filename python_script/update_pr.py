@@ -20,7 +20,7 @@ def get_json(url):
 
 def update_pr():
 
-   conecta_remoto.c.execute("select owner, nome_projeto, number_pr, id from pr where (commits is null) and nome_projeto <> 'turbolinks' and id >1111321215 and id <=1111327040 order by id")#%(linguagem))
+   conecta_remoto.c.execute("select owner, nome_projeto, number_pr, id from pr where (commits is null) order by id")
    x = 0
    #try:  
    for linha in conecta_remoto.c.fetchall():
@@ -48,7 +48,7 @@ def update_pr():
 ##      print('Erro')
       
 
-   #percorrer a URL e pegar as informações necessárias
+   #percorrer a URL e pegar as informaÃ§Ãµes necessÃ¡rias
 ##      sql = 'update teste set id_teste = ' + str(x) + ' where id_teste = ' +str(row[0])
 ##      x = x + 1
 ##      conecta.c.execute(sql)

@@ -4,7 +4,9 @@ This site contains scripts and datas to reproduce the paper intituled: Pull Requ
 
 ### Guidelines
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Selecting the projects
+
+All projects used in this paper is available on this link [a relative link](data/projects)
 
 ```markdown
 Syntax highlighted code block
